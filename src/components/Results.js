@@ -15,7 +15,7 @@ const Results = () => (
                 <thead className='table-primary'>
                 <tr>
                     <th>Chemical</th>
-                    <th>Rank</th>
+                    <th className="text-center">Rank</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -25,8 +25,8 @@ const Results = () => (
                         <h6 className='text-muted'>
                             50-50-50 | <a href="http://comptox.epa.gov/dashboard/DTXSID7044554">DTXSID7044554</a>
                         </h6>
-                    </td>7
-                    <td><h4>1.8</h4></td>
+                    </td>
+                    <td><h4 className="text-center">1.8</h4></td>
                 </tr>
                 <tr>
                     <td>
@@ -35,7 +35,7 @@ const Results = () => (
                             50-50-50 | <a href="http://comptox.epa.gov/dashboard/DTXSID7044554">DTXSID7044554</a>
                         </h6>
                     </td>
-                    <td><h4>1.4</h4></td>
+                    <td><h4 className="text-center">1.4</h4></td>
                 </tr>
                 <tr>
                     <td>
