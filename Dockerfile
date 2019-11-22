@@ -6,13 +6,12 @@ FROM node:8.9-alpine
 # Create a work directory and copy over our dependency manifest files.
 RUN mkdir /app
 WORKDIR /app
-COPY /src /app/src
-COPY ["package.json", "package-lock.json*", "./"]
+COPY --chown=node:node /src /app/src
+COPY --chown=node:node  ["package.json", "package-lock.json*", "./"]
 
 # If you're using yarn:
 #  yarn build
 RUN npm install --production --silent && mv node_modules ../
 USER node
-
 # Expose PORT 3000 on our virtual machine so we can run our server
 EXPOSE 3000
