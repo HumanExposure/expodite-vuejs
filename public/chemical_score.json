@@ -1,4 +1,5 @@
-[
+{
+  "chemicals": [
   {
     "DTXSID": "DTXSID9020112",
     "PREFERRED_NAME": "Atrazine",
@@ -402,3 +403,4 @@
     "SCORE": 91
   }
 ]
+}

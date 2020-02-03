@@ -1,0 +1,463 @@
+<template>
+    <div>
+        <h2>{{ title }}</h2>
+        <div>
+            Sorting By: <b>{{ sortBy }}</b>, Sort Direction:
+            <b>{{ sortDesc ? 'Descending' : 'Ascending' }}</b>
+        </div>
+        <p>{{ selected}}</p>
+        <b-table
+                :items="chemicals"
+                :fields="fields"
+                :sort-by.sync="sortBy"
+                :sort-desc.sync="sortDesc"
+                :select-mode="selectMode"
+                @row-selected="onRowSelected"
+                sort-icon-left
+                responsive="sm"
+                hover
+                striped
+                selectable
+                small
+        ></b-table>
+    </div>
+</template>
+
+
+
+<script>
+    export default {
+        name: "ChemicalGrid",
+        components: {
+        },
+        data() {
+            return {
+                title: "My Chemical List",
+                sortBy: 'SCORE',
+                sortDesc: false,
+                selected: [],
+                modes: ['multi', 'single', 'range'],
+                selectMode: 'single',
+                fields: [
+                    { key: 'PREFERRED_NAME', label: 'Chemical', sortable: true },
+                    { key: 'DTXSID', sortable: false },
+                    { key: 'CASRN', sortable: false },
+                    { key: 'SCORE', label: 'Score', sortable: true }
+                ],
+                chemicals: [
+                    {
+                        "DTXSID": "DTXSID9020112",
+                        "PREFERRED_NAME": "Atrazine",
+                        "CASRN": "1912-24-9",
+                        "SCORE": 16
+                    },
+                    {
+                        "DTXSID": "DTXSID9020160",
+                        "PREFERRED_NAME": "Bifenthrin",
+                        "CASRN": "82657-04-3",
+                        "SCORE": 47
+                    },
+                    {
+                        "DTXSID": "DTXSID3020205",
+                        "PREFERRED_NAME": "Benzyl butyl phthalate",
+                        "CASRN": "85-68-7",
+                        "SCORE": 8
+                    },
+                    {
+                        "DTXSID": "DTXSID9020243",
+                        "PREFERRED_NAME": "Captan",
+                        "CASRN": "133-06-2",
+                        "SCORE": 24
+                    },
+                    {
+                        "DTXSID": "DTXSID9020247",
+                        "PREFERRED_NAME": "Carbaryl",
+                        "CASRN": "63-25-2",
+                        "SCORE": 36
+                    },
+                    {
+                        "DTXSID": "DTXSID9020249",
+                        "PREFERRED_NAME": "Carbofuran",
+                        "CASRN": "1563-66-2",
+                        "SCORE": 89
+                    },
+                    {
+                        "DTXSID": "DTXSID0020319",
+                        "PREFERRED_NAME": "Chlorothalonil",
+                        "CASRN": "1897-45-6",
+                        "SCORE": 42
+                    },
+                    {
+                        "DTXSID": "DTXSID9020407",
+                        "PREFERRED_NAME": "Diazinon",
+                        "CASRN": "333-41-5",
+                        "SCORE": 78
+                    },
+                    {
+                        "DTXSID": "DTXSID2020420",
+                        "PREFERRED_NAME": "Propyzamide",
+                        "CASRN": "23950-58-5",
+                        "SCORE": 83
+                    },
+                    {
+                        "DTXSID": "DTXSID0020442",
+                        "PREFERRED_NAME": "\"2,4-Dichlorophenoxyacetic acid\"",
+                        "CASRN": "94-75-7",
+                        "SCORE": 34
+                    },
+                    {
+                        "DTXSID": "DTXSID4020450",
+                        "PREFERRED_NAME": "Dicofol",
+                        "CASRN": "115-32-2",
+                        "SCORE": 29
+                    },
+                    {
+                        "DTXSID": "DTXSID4020458",
+                        "PREFERRED_NAME": "Chlorpyrifos",
+                        "CASRN": "2921-88-2",
+                        "SCORE": 89
+                    },
+                    {
+                        "DTXSID": "DTXSID7020479",
+                        "PREFERRED_NAME": "Dimethoate",
+                        "CASRN": "60-51-5",
+                        "SCORE": 48
+                    },
+                    {
+                        "DTXSID": "DTXSID1020560",
+                        "PREFERRED_NAME": "Endosulfan",
+                        "CASRN": "115-29-7",
+                        "SCORE": 26
+                    },
+                    {
+                        "DTXSID": "DTXSID5020607",
+                        "PREFERRED_NAME": "Di(2-ethylhexyl) phthalate",
+                        "CASRN": "117-81-7",
+                        "SCORE": 99
+                    },
+                    {
+                        "DTXSID": "DTXSID8020759",
+                        "PREFERRED_NAME": "Isophorone",
+                        "CASRN": "78-59-1",
+                        "SCORE": 34
+                    },
+                    {
+                        "DTXSID": "DTXSID4020791",
+                        "PREFERRED_NAME": "Malathion",
+                        "CASRN": "121-75-5",
+                        "SCORE": 72
+                    },
+                    {
+                        "DTXSID": "DTXSID5020819",
+                        "PREFERRED_NAME": "Methidathion",
+                        "CASRN": "950-37-8",
+                        "SCORE": 77
+                    },
+                    {
+                        "DTXSID": "DTXSID1020855",
+                        "PREFERRED_NAME": "Methyl parathion",
+                        "CASRN": "298-00-0",
+                        "SCORE": 82
+                    },
+                    {
+                        "DTXSID": "DTXSID6021086",
+                        "PREFERRED_NAME": "Oxamyl",
+                        "CASRN": "23135-22-0",
+                        "SCORE": 85
+                    },
+                    {
+                        "DTXSID": "DTXSID2021105",
+                        "PREFERRED_NAME": "Pentachloronitrobenzene",
+                        "CASRN": "82-68-8",
+                        "SCORE": 28
+                    },
+                    {
+                        "DTXSID": "DTXSID2021151",
+                        "PREFERRED_NAME": "2-Phenylphenol",
+                        "CASRN": "90-43-7",
+                        "SCORE": 29
+                    },
+                    {
+                        "DTXSID": "DTXSID1021166",
+                        "PREFERRED_NAME": "Piperonyl butoxide",
+                        "CASRN": "51-03-6",
+                        "SCORE": "44"
+                    },
+                    {
+                        "DTXSID": "DTXSID4021268",
+                        "PREFERRED_NAME": "Simazine",
+                        "CASRN": "122-34-9",
+                        "SCORE": 88
+                    },
+                    {
+                        "DTXSID": "DTXSID7021360",
+                        "PREFERRED_NAME": "Toluene",
+                        "CASRN": "108-88-3",
+                        "SCORE": 47
+                    },
+                    {
+                        "DTXSID": "DTXSID0021385",
+                        "PREFERRED_NAME": "Folpet",
+                        "CASRN": "133-07-3",
+                        "SCORE": 40
+                    },
+                    {
+                        "DTXSID": "DTXSID4021395",
+                        "PREFERRED_NAME": "Trifluralin",
+                        "CASRN": "1582-09-8",
+                        "SCORE": 89
+                    },
+                    {
+                        "DTXSID": "DTXSID8021482",
+                        "PREFERRED_NAME": "Acetone",
+                        "CASRN": "67-64-1",
+                        "SCORE": 98
+                    },
+                    {
+                        "DTXSID": "DTXSID3021516",
+                        "PREFERRED_NAME": "Methyl ethyl ketone",
+                        "CASRN": "78-93-3",
+                        "SCORE": 49
+                    },
+                    {
+                        "DTXSID": "DTXSID7021780",
+                        "PREFERRED_NAME": "Diethyl phthalate",
+                        "CASRN": "84-66-2",
+                        "SCORE": 65
+                    },
+                    {
+                        "DTXSID": "DTXSID2021781",
+                        "PREFERRED_NAME": "Dibutyl phthalate",
+                        "CASRN": "84-74-2",
+                        "SCORE": 29
+                    },
+                    {
+                        "DTXSID": "DTXSID0022018",
+                        "PREFERRED_NAME": "Disulfoton",
+                        "CASRN": "298-04-4",
+                        "SCORE": 62
+                    },
+                    {
+                        "DTXSID": "DTXSID7022253",
+                        "PREFERRED_NAME": "Resmethrin",
+                        "CASRN": "10453-86-8",
+                        "SCORE": 60
+                    },
+                    {
+                        "DTXSID": "DTXSID1022267",
+                        "PREFERRED_NAME": "Methomyl",
+                        "CASRN": "16752-77-5",
+                        "SCORE": 96
+                    },
+                    {
+                        "DTXSID": "DTXSID8022292",
+                        "PREFERRED_NAME": "Permethrin",
+                        "CASRN": "52645-53-1",
+                        "SCORE": 48
+                    },
+                    {
+                        "DTXSID": "DTXSID4022448",
+                        "PREFERRED_NAME": "Metolachlor",
+                        "CASRN": "51218-45-2",
+                        "SCORE": 30
+                    },
+                    {
+                        "DTXSID": "DTXSID3022455",
+                        "PREFERRED_NAME": "Dimethyl phthalate",
+                        "CASRN": "131-11-3",
+                        "SCORE": 56
+                    },
+                    {
+                        "DTXSID": "DTXSID8023846",
+                        "PREFERRED_NAME": "Acephate",
+                        "CASRN": "30560-19-1",
+                        "SCORE": 10
+                    },
+                    {
+                        "DTXSID": "DTXSID8023892",
+                        "PREFERRED_NAME": "Abamectin",
+                        "CASRN": "71751-41-2",
+                        "SCORE": 16
+                    },
+                    {
+                        "DTXSID": "DTXSID3023897",
+                        "PREFERRED_NAME": "Triadimefon",
+                        "CASRN": "43121-43-3",
+                        "SCORE": 80
+                    },
+                    {
+                        "DTXSID": "DTXSID3023899",
+                        "PREFERRED_NAME": "Benfluralin",
+                        "CASRN": "1861-40-1",
+                        "SCORE": 35
+                    },
+                    {
+                        "DTXSID": "DTXSID1023998",
+                        "PREFERRED_NAME": "Cypermethrin",
+                        "CASRN": "52315-07-8",
+                        "SCORE": 85
+                    },
+                    {
+                        "DTXSID": "DTXSID0024000",
+                        "PREFERRED_NAME": "Chlorthal-dimethyl",
+                        "CASRN": "1861-32-1",
+                        "SCORE": 77
+                    },
+                    {
+                        "DTXSID": "DTXSID1024091",
+                        "PREFERRED_NAME": "EPTC",
+                        "CASRN": "759-94-4",
+                        "SCORE": 44
+                    },
+                    {
+                        "DTXSID": "DTXSID8024109",
+                        "PREFERRED_NAME": "Flutolanil",
+                        "CASRN": "66332-96-5",
+                        "SCORE": 84
+                    },
+                    {
+                        "DTXSID": "DTXSID1024122",
+                        "PREFERRED_NAME": "Glyphosate",
+                        "CASRN": "1071-83-6",
+                        "SCORE": 42
+                    },
+                    {
+                        "DTXSID": "DTXSID3024154",
+                        "PREFERRED_NAME": "Iprodione",
+                        "CASRN": "36734-19-7",
+                        "SCORE": 15
+                    },
+                    {
+                        "DTXSID": "DTXSID2024163",
+                        "PREFERRED_NAME": "Linuron",
+                        "CASRN": "330-55-2",
+                        "SCORE": 55
+                    },
+                    {
+                        "DTXSID": "DTXSID6024175",
+                        "PREFERRED_NAME": "Metalaxyl",
+                        "CASRN": "57837-19-1",
+                        "SCORE": 11
+                    },
+                    {
+                        "DTXSID": "DTXSID6024177",
+                        "PREFERRED_NAME": "Methamidophos",
+                        "CASRN": "10265-92-6",
+                        "SCORE": 78
+                    },
+                    {
+                        "DTXSID": "DTXSID6024204",
+                        "PREFERRED_NAME": "Metribuzin",
+                        "CASRN": "21087-64-9",
+                        "SCORE": 77
+                    },
+                    {
+                        "DTXSID": "DTXSID8024234",
+                        "PREFERRED_NAME": "Norflurazon",
+                        "CASRN": "27314-13-2",
+                        "SCORE": 25
+                    },
+                    {
+                        "DTXSID": "DTXSID5024261",
+                        "PREFERRED_NAME": "Phosmet",
+                        "CASRN": "732-11-6",
+                        "SCORE": 85
+                    },
+                    {
+                        "DTXSID": "DTXSID4024274",
+                        "PREFERRED_NAME": "Propachlor",
+                        "CASRN": "1918-16-7",
+                        "SCORE": 45
+                    },
+                    {
+                        "DTXSID": "DTXSID4024276",
+                        "PREFERRED_NAME": "Propargite",
+                        "CASRN": "2312-35-8",
+                        "SCORE": 10
+                    },
+                    {
+                        "DTXSID": "DTXSID8024280",
+                        "PREFERRED_NAME": "Propiconazole",
+                        "CASRN": "60207-90-1",
+                        "SCORE": 86
+                    },
+                    {
+                        "DTXSID": "DTXSID8024315",
+                        "PREFERRED_NAME": "Myclobutanil",
+                        "CASRN": "88671-89-0",
+                        "SCORE": 34
+                    },
+                    {
+                        "DTXSID": "DTXSID9032113",
+                        "PREFERRED_NAME": "Tebuconazole",
+                        "CASRN": "107534-96-3",
+                        "SCORE": 40
+                    },
+                    {
+                        "DTXSID": "DTXSID5032365",
+                        "PREFERRED_NAME": "Dichlobenil",
+                        "CASRN": "1194-65-6",
+                        "SCORE": 9
+                    },
+                    {
+                        "DTXSID": "DTXSID7032391",
+                        "PREFERRED_NAME": "Fenbutatin oxide",
+                        "CASRN": "13356-08-6",
+                        "SCORE": 46
+                    },
+                    {
+                        "DTXSID": "DTXSID5032442",
+                        "PREFERRED_NAME": "Imidacloprid",
+                        "CASRN": "138261-41-3",
+                        "SCORE": 66
+                    },
+                    {
+                        "DTXSID": "DTXSID6032562",
+                        "PREFERRED_NAME": "Octylbicycloheptenedicarboximide",
+                        "CASRN": "113-48-4",
+                        "SCORE": 78
+                    },
+                    {
+                        "DTXSID": "DTXSID4032611",
+                        "PREFERRED_NAME": "Ethoprop",
+                        "CASRN": "13194-48-4",
+                        "SCORE": 5
+                    },
+                    {
+                        "DTXSID": "DTXSID1032640",
+                        "PREFERRED_NAME": "Pyriproxyfen",
+                        "CASRN": "95737-68-1",
+                        "SCORE": 39
+                    },
+                    {
+                        "DTXSID": "DTXSID1032648",
+                        "PREFERRED_NAME": "Z-Tetrachlorvinphos",
+                        "CASRN": "22248-79-9",
+                        "SCORE": 91
+                    },
+                    {
+                        "DTXSID": "DTXSID4032667",
+                        "PREFERRED_NAME": "Esfenvalerate",
+                        "CASRN": "66230-04-4",
+                        "SCORE": 52
+                    },
+                    {
+                        "DTXSID": "DTXSID5035957",
+                        "PREFERRED_NAME": "Cyfluthrin",
+                        "CASRN": "68359-37-5",
+                        "SCORE": 91
+                    }
+                ]
+            }
+        },
+        methods: {
+            onRowSelected(item) {
+                this.selected = item
+            }
+        }
+    }
+</script>
+
+<style scoped>
+
+</style>

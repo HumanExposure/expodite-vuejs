@@ -2,24 +2,25 @@
     <div id="app">
         <div class="row">
             <div class="col-8">
-                <MyGrid />
+                <ChemicalGrid></ChemicalGrid>
             </div>
             <div class="col-4">
-                <ChemicalDetail />
+                <ChemicalDetail></ChemicalDetail>
             </div>
         </div>
     </div>
 </template>
 
 <script>
-import MyGrid from "@/components/MyGrid";
-import ChemicalDetail from "@/components/ChemicalDetail";
+import ChemicalGrid from "./components/ChemicalGrid"
+import ChemicalDetail from "./components/ChemicalDetail"
+
 
   export default {
     name: 'app',
     components: {
-      MyGrid, ChemicalDetail
-    }
+      ChemicalGrid, ChemicalDetail
+    },
   }
 </script>
 
