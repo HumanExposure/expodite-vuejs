@@ -1,1487 +1,374 @@
 {
-  "chemicals": [
-  {
-    "DTXSID": "DTXSID2024161",
-    "PREFERRED_NAME": "Lead",
-    "SCORE": 7,
-    "DETAILS": [
+    "chemicals": [
         {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "Name": "Arts and crafts/Office supplies - pottery making - glaze",
-            "PUC_id": 24,
-            "Product_ids": "ids and links will be here"
+            "DTXSID": "DTXSID2024161",
+            "PREFERRED_NAME": "Lead",
+            "SCORE": 7,
+            "DETAILS": [
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "Name": "Arts and crafts/Office supplies - pottery making - glaze",
+                    "PUC_id": 24,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Breastmilk",
+                    "Score": 4,
+                    "Name": "Lehmann et al. 2018",
+                    "PUC_id": 0,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Far-field Sources",
+                    "Score": 1,
+                    "Name": "Cleaning products and household care - drain products",
+                    "PUC_id": 37,
+                    "Product_ids": "ids and links will be here"
+                }
+            ]
         },
         {
-            "Differential Metric": "Breastmilk",
-            "Score": 4,
-            "Name": "Lehmann et al. 2018",
-            "PUC_id": 0,
-            "Product_ids": "ids and links will be here"
+            "DTXSID": "DTXSID5026386",
+            "PREFERRED_NAME": "Propane",
+            "SCORE": 9,
+            "DETAILS": [
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - arts and crafts finish",
+                    "id": 13,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - flocking",
+                    "id": 16,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Arts and crafts/Office supplies - pottery making - glaze",
+                    "id": 24,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Residential Dust",
+                    "Score": 3,
+                    "gen_cat": "Cleaning products and household care - air freshener",
+                    "id": 25,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
+                    "id": 26,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Flooring and Related Products",
+                    "Score": 3,
+                    "gen_cat": "Cleaning products and household care - carpet and floor - carpet cleaner",
+                    "id": 28,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Cleaning products and household care - general household cleaning - disinfectant",
+                    "id": 51,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Far-field Sources",
+                    "Score": 1,
+                    "Name": "Cleaning products and household care - drain products",
+                    "PUC_id": 37,
+                    "Product_ids": "ids and links will be here"
+                }
+            ]
         },
         {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "Name": "Cleaning products and household care - drain products",
-            "PUC_id": 37,
-            "Product_ids": "ids and links will be here"
+            "DTXSID": "DTXSID6052827",
+            "PREFERRED_NAME": "Rutile titanium dioxide",
+            "SCORE": 3,
+            "DETAILS": [
+                {
+                    "differential_metric": "Consumer Sources Flooring and Related Products",
+                    "Score": 3,
+                    "gen_cat": "Home maintenance - paint/stain and related products - paint",
+                    "id": 95,
+                    "Product_ids": "ids and links will be here"
+                }
+            ]
+        },
+        {
+            "DTXSID": "DTXSID7020762",
+            "PREFERRED_NAME": "Isopropanol",
+            "SCORE": 10,
+            "DETAILS": [
+                {
+                    "differential_metric": "Consumer Sources Flooring and Related Products",
+                    "Score": 3,
+                    "gen_cat": "Home maintenance - paint/stain and related products - paint",
+                    "id": 95,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - arts and crafts cleaner",
+                    "id": 12,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Arts and crafts/Office supplies - home office - pens and markers",
+                    "id": 22,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Residential Dust",
+                    "Score": 3,
+                    "gen_cat": "Cleaning products and household care - air freshener",
+                    "id": 25,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
+                    "id": 26,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Flooring and Related Products",
+                    "Score": 3,
+                    "gen_cat": "Cleaning products and household care - carpet and floor",
+                    "id": 32,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Flooring and Related Products",
+                    "Score": 3,
+                    "gen_cat": "Cleaning products and household care - carpet and floor - carpet cleaner",
+                    "id": 28,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Flooring and Related Products",
+                    "Score": 3,
+                    "gen_cat": "Cleaning products and household care - carpet and floor - floor cleaner",
+                    "id": 30,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Dietary Sources",
+                    "Score": 1,
+                    "gen_cat": "Cleaning products and household care - dishwasher and dishes - automatic dishwashing additive",
+                    "id": 33,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Far-field Sources",
+                    "Score": 1,
+                    "gen_cat": "Cleaning products and household care - drain products",
+                    "id": 37,
+                    "Product_ids": "ids and links will be here"
+                }
+            ]
+        },
+        {
+            "DTXSID": "DTXSID0021381",
+            "PREFERRED_NAME": "1,1,1-Trichloroethane",
+            "SCORE": 6,
+            "DETAILS": [
+                {
+                    "differential_metric": "Consumer Sources Flooring and Related Products",
+                    "Score": 3,
+                    "gen_cat": "Home maintenance - paint/stain and related products - paint",
+                    "id": 95,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - arts and crafts cleaner",
+                    "id": 12,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Arts and crafts/Office supplies - home office - white out",
+                    "id": 23,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Cleaning products and household care - laundry and fabric treatment - anti-static spray",
+                    "id": 41,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Far-field Sources",
+                    "Score": 1,
+                    "gen_cat": "Cleaning products and household care - metal specific - metal polish",
+                    "id": 67,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Cleaning products and household care - wood specific",
+                    "id": 47,
+                    "Product_ids": "ids and links will be here"
+                }
+            ]
+        },
+        {
+            "DTXSID": "DTXSID0025816",
+            "PREFERRED_NAME": "Oxalic acid",
+            "SCORE": 3,
+            "DETAILS": [
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
+                    "id": 26,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Cleaning products and household care - general household cleaning  - bleach",
+                    "id": 50,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Far-field Sources",
+                    "Score": 1,
+                    "gen_cat": "Cleaning products and household care - metal specific - metal polish",
+                    "id": 67,
+                    "Product_ids": "ids and links will be here"
+                }
+            ]
+        },
+        {
+            "DTXSID": "DTXSID1026401",
+            "PREFERRED_NAME": "Isobutane",
+            "SCORE": 8,
+            "DETAILS": [
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
+                    "id": 26,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - flocking",
+                    "id": 16,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Arts and crafts/Office supplies - pottery making - glaze",
+                    "id": 24,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Residential Dust",
+                    "Score": 3,
+                    "gen_cat": "Cleaning products and household care - air freshener",
+                    "id": 25,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
+                    "id": 26,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Flooring and Related Products",
+                    "Score": 3,
+                    "gen_cat": "Cleaning products and household care - carpet and floor - carpet cleaner",
+                    "id": 28,
+                    "Product_ids": "ids and links will be here"
+                }
+            ]
+        },
+        {
+            "DTXSID": "DTXSID2021446",
+            "PREFERRED_NAME": "Xylenes",
+            "SCORE": 6,
+            "DETAILS": [
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
+                    "id": 26,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies -arts and crafts cleaner",
+                    "id": 12,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - arts and crafts finish",
+                    "id": 13,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Arts and crafts/Office supplies - home office - pens and markers",
+                    "id": 22,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Arts and crafts/Office supplies - pottery making - glaze",
+                    "id": 24,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Other Products",
+                    "Score": 2,
+                    "gen_cat": "Cleaning products and household care - heavy duty cleaner",
+                    "id": 54,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Far-field Sources",
+                    "Score": 1,
+                    "gen_cat": "Home maintenance - degreaser",
+                    "id": 87,
+                    "Product_ids": "ids and links will be here"
+                },
+                {
+                    "differential_metric": "Consumer Sources Flooring and Related Products",
+                    "Score": 3,
+                    "gen_cat": "Home maintenance - paint/stain and related products - oil-based paint",
+                    "id": 94,
+                    "Product_ids": "ids and links will be here"
+                }
+            ]
         }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID5026386",
-    "PREFERRED_NAME": "Propane",
-    "SCORE": 9,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - arts and crafts finish",
-            "id": 13,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - flocking",
-            "id": 16,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - pottery making - glaze",
-            "id": 24,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Residential Dust",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - air freshener",
-            "id": 25,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - carpet and floor - carpet cleaner",
-            "id": 28,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - general household cleaning - disinfectant",
-            "id": 51,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "Name": "Cleaning products and household care - drain products",
-            "PUC_id": 37,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID6052827",
-    "PREFERRED_NAME": "Rutile titanium dioxide",
-    "SCORE": 3,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Home maintenance - paint/stain and related products - paint",
-            "id": 95,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID7020762",
-    "PREFERRED_NAME": "Isopropanol",
-    "SCORE": 10,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Home maintenance - paint/stain and related products - paint",
-            "id": 95,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - arts and crafts cleaner",
-            "id": 12,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - home office - pens and markers",
-            "id": 22,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Residential Dust",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - air freshener",
-            "id": 25,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - carpet and floor",
-            "id": 32,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - carpet and floor - carpet cleaner",
-            "id": 28,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - carpet and floor - floor cleaner",
-            "id": 30,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Dietary Sources",
-            "Score": 1,
-            "gen_cat": "Cleaning products and household care - dishwasher and dishes - automatic dishwashing additive",
-            "id": 33,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "gen_cat": "Cleaning products and household care - drain products",
-            "id": 37,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID0021381",
-    "PREFERRED_NAME": "1,1,1-Trichloroethane",
-    "SCORE": 6,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Home maintenance - paint/stain and related products - paint",
-            "id": 95,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - arts and crafts cleaner",
-            "id": 12,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - home office - white out",
-            "id": 23,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - laundry and fabric treatment - anti-static spray",
-            "id": 41,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "gen_cat": "Cleaning products and household care - metal specific - metal polish",
-            "id": 67,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - wood specific",
-            "id": 47,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID0025816",
-    "PREFERRED_NAME": "Oxalic acid",
-    "SCORE": 3,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - general household cleaning  - bleach",
-            "id": 50,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "gen_cat": "Cleaning products and household care - metal specific - metal polish",
-            "id": 67,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID1026401",
-    "PREFERRED_NAME": "Isobutane",
-    "SCORE": 8,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - flocking",
-            "id": 16,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - pottery making - glaze",
-            "id": 24,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Residential Dust",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - air freshener",
-            "id": 25,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - carpet and floor - carpet cleaner",
-            "id": 28,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID2021446",
-    "PREFERRED_NAME": "Xylenes",
-    "SCORE": 6,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies -arts and crafts cleaner",
-            "id": 12,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - arts and crafts finish",
-            "id": 13,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - home office - pens and markers",
-            "id": 22,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - pottery making - glaze",
-            "id": 24,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - heavy duty cleaner",
-            "id": 54,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "gen_cat": "Home maintenance - degreaser",
-            "id": 87,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Home maintenance - paint/stain and related products - oil-based paint",
-            "id": 94,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID2024161",
-    "PREFERRED_NAME": "Lead",
-    "SCORE": 7,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "Name": "Arts and crafts/Office supplies - pottery making - glaze",
-            "PUC_id": 24,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Breastmilk",
-            "Score": 4,
-            "Name": "Lehmann et al. 2018",
-            "PUC_id": 0,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "Name": "Cleaning products and household care - drain products",
-            "PUC_id": 37,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID5026386",
-    "PREFERRED_NAME": "Propane",
-    "SCORE": 9,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - arts and crafts finish",
-            "id": 13,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - flocking",
-            "id": 16,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - pottery making - glaze",
-            "id": 24,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Residential Dust",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - air freshener",
-            "id": 25,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - carpet and floor - carpet cleaner",
-            "id": 28,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - general household cleaning - disinfectant",
-            "id": 51,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "Name": "Cleaning products and household care - drain products",
-            "PUC_id": 37,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID6052827",
-    "PREFERRED_NAME": "Rutile titanium dioxide",
-    "SCORE": 3,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Home maintenance - paint/stain and related products - paint",
-            "id": 95,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID7020762",
-    "PREFERRED_NAME": "Isopropanol",
-    "SCORE": 10,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Home maintenance - paint/stain and related products - paint",
-            "id": 95,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - arts and crafts cleaner",
-            "id": 12,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - home office - pens and markers",
-            "id": 22,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Residential Dust",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - air freshener",
-            "id": 25,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - carpet and floor",
-            "id": 32,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - carpet and floor - carpet cleaner",
-            "id": 28,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - carpet and floor - floor cleaner",
-            "id": 30,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Dietary Sources",
-            "Score": 1,
-            "gen_cat": "Cleaning products and household care - dishwasher and dishes - automatic dishwashing additive",
-            "id": 33,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "gen_cat": "Cleaning products and household care - drain products",
-            "id": 37,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID0021381",
-    "PREFERRED_NAME": "1,1,1-Trichloroethane",
-    "SCORE": 6,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Home maintenance - paint/stain and related products - paint",
-            "id": 95,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - arts and crafts cleaner",
-            "id": 12,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - home office - white out",
-            "id": 23,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - laundry and fabric treatment - anti-static spray",
-            "id": 41,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "gen_cat": "Cleaning products and household care - metal specific - metal polish",
-            "id": 67,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - wood specific",
-            "id": 47,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID0025816",
-    "PREFERRED_NAME": "Oxalic acid",
-    "SCORE": 3,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - general household cleaning  - bleach",
-            "id": 50,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "gen_cat": "Cleaning products and household care - metal specific - metal polish",
-            "id": 67,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID1026401",
-    "PREFERRED_NAME": "Isobutane",
-    "SCORE": 8,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - flocking",
-            "id": 16,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - pottery making - glaze",
-            "id": 24,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Residential Dust",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - air freshener",
-            "id": 25,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - carpet and floor - carpet cleaner",
-            "id": 28,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID2021446",
-    "PREFERRED_NAME": "Xylenes",
-    "SCORE": 6,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies -arts and crafts cleaner",
-            "id": 12,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - arts and crafts finish",
-            "id": 13,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - home office - pens and markers",
-            "id": 22,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - pottery making - glaze",
-            "id": 24,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - heavy duty cleaner",
-            "id": 54,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "gen_cat": "Home maintenance - degreaser",
-            "id": 87,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Home maintenance - paint/stain and related products - oil-based paint",
-            "id": 94,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID2024161",
-    "PREFERRED_NAME": "Lead",
-    "SCORE": 7,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "Name": "Arts and crafts/Office supplies - pottery making - glaze",
-            "PUC_id": 24,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Breastmilk",
-            "Score": 4,
-            "Name": "Lehmann et al. 2018",
-            "PUC_id": 0,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "Name": "Cleaning products and household care - drain products",
-            "PUC_id": 37,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID5026386",
-    "PREFERRED_NAME": "Propane",
-    "SCORE": 9,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - arts and crafts finish",
-            "id": 13,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - flocking",
-            "id": 16,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - pottery making - glaze",
-            "id": 24,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Residential Dust",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - air freshener",
-            "id": 25,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - carpet and floor - carpet cleaner",
-            "id": 28,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - general household cleaning - disinfectant",
-            "id": 51,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "Name": "Cleaning products and household care - drain products",
-            "PUC_id": 37,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID6052827",
-    "PREFERRED_NAME": "Rutile titanium dioxide",
-    "SCORE": 3,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Home maintenance - paint/stain and related products - paint",
-            "id": 95,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID7020762",
-    "PREFERRED_NAME": "Isopropanol",
-    "SCORE": 10,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Home maintenance - paint/stain and related products - paint",
-            "id": 95,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - arts and crafts cleaner",
-            "id": 12,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - home office - pens and markers",
-            "id": 22,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Residential Dust",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - air freshener",
-            "id": 25,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - carpet and floor",
-            "id": 32,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - carpet and floor - carpet cleaner",
-            "id": 28,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - carpet and floor - floor cleaner",
-            "id": 30,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Dietary Sources",
-            "Score": 1,
-            "gen_cat": "Cleaning products and household care - dishwasher and dishes - automatic dishwashing additive",
-            "id": 33,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "gen_cat": "Cleaning products and household care - drain products",
-            "id": 37,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID0021381",
-    "PREFERRED_NAME": "1,1,1-Trichloroethane",
-    "SCORE": 6,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Home maintenance - paint/stain and related products - paint",
-            "id": 95,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - arts and crafts cleaner",
-            "id": 12,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - home office - white out",
-            "id": 23,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - laundry and fabric treatment - anti-static spray",
-            "id": 41,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "gen_cat": "Cleaning products and household care - metal specific - metal polish",
-            "id": 67,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - wood specific",
-            "id": 47,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID0025816",
-    "PREFERRED_NAME": "Oxalic acid",
-    "SCORE": 3,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - general household cleaning  - bleach",
-            "id": 50,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "gen_cat": "Cleaning products and household care - metal specific - metal polish",
-            "id": 67,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID1026401",
-    "PREFERRED_NAME": "Isobutane",
-    "SCORE": 8,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - flocking",
-            "id": 16,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - pottery making - glaze",
-            "id": 24,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Residential Dust",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - air freshener",
-            "id": 25,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - carpet and floor - carpet cleaner",
-            "id": 28,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID2021446",
-    "PREFERRED_NAME": "Xylenes",
-    "SCORE": 6,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies -arts and crafts cleaner",
-            "id": 12,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - arts and crafts finish",
-            "id": 13,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - home office - pens and markers",
-            "id": 22,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - pottery making - glaze",
-            "id": 24,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - heavy duty cleaner",
-            "id": 54,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "gen_cat": "Home maintenance - degreaser",
-            "id": 87,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Home maintenance - paint/stain and related products - oil-based paint",
-            "id": 94,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID2024161",
-    "PREFERRED_NAME": "Lead",
-    "SCORE": 7,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "Name": "Arts and crafts/Office supplies - pottery making - glaze",
-            "PUC_id": 24,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Breastmilk",
-            "Score": 4,
-            "Name": "Lehmann et al. 2018",
-            "PUC_id": 0,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "Name": "Cleaning products and household care - drain products",
-            "PUC_id": 37,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID5026386",
-    "PREFERRED_NAME": "Propane",
-    "SCORE": 9,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - arts and crafts finish",
-            "id": 13,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - flocking",
-            "id": 16,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - pottery making - glaze",
-            "id": 24,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Residential Dust",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - air freshener",
-            "id": 25,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - carpet and floor - carpet cleaner",
-            "id": 28,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - general household cleaning - disinfectant",
-            "id": 51,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "Name": "Cleaning products and household care - drain products",
-            "PUC_id": 37,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID6052827",
-    "PREFERRED_NAME": "Rutile titanium dioxide",
-    "SCORE": 3,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Home maintenance - paint/stain and related products - paint",
-            "id": 95,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID7020762",
-    "PREFERRED_NAME": "Isopropanol",
-    "SCORE": 10,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Home maintenance - paint/stain and related products - paint",
-            "id": 95,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - arts and crafts cleaner",
-            "id": 12,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - home office - pens and markers",
-            "id": 22,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Residential Dust",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - air freshener",
-            "id": 25,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - carpet and floor",
-            "id": 32,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - carpet and floor - carpet cleaner",
-            "id": 28,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - carpet and floor - floor cleaner",
-            "id": 30,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Dietary Sources",
-            "Score": 1,
-            "gen_cat": "Cleaning products and household care - dishwasher and dishes - automatic dishwashing additive",
-            "id": 33,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "gen_cat": "Cleaning products and household care - drain products",
-            "id": 37,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID0021381",
-    "PREFERRED_NAME": "1,1,1-Trichloroethane",
-    "SCORE": 6,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Home maintenance - paint/stain and related products - paint",
-            "id": 95,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - arts and crafts cleaner",
-            "id": 12,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - home office - white out",
-            "id": 23,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - laundry and fabric treatment - anti-static spray",
-            "id": 41,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "gen_cat": "Cleaning products and household care - metal specific - metal polish",
-            "id": 67,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - wood specific",
-            "id": 47,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID0025816",
-    "PREFERRED_NAME": "Oxalic acid",
-    "SCORE": 3,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - general household cleaning  - bleach",
-            "id": 50,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "gen_cat": "Cleaning products and household care - metal specific - metal polish",
-            "id": 67,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID1026401",
-    "PREFERRED_NAME": "Isobutane",
-    "SCORE": 8,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - flocking",
-            "id": 16,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - pottery making - glaze",
-            "id": 24,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Residential Dust",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - air freshener",
-            "id": 25,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Cleaning products and household care - carpet and floor - carpet cleaner",
-            "id": 28,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  },
-  {
-    "DTXSID": "DTXSID2021446",
-    "PREFERRED_NAME": "Xylenes",
-    "SCORE": 6,
-    "DETAILS": [
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - bathroom - bathroom cleaner",
-            "id": 26,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies -arts and crafts cleaner",
-            "id": 12,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - general arts and crafts supplies - arts and crafts finish",
-            "id": 13,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - home office - pens and markers",
-            "id": 22,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Arts and crafts/Office supplies - pottery making - glaze",
-            "id": 24,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Other Products",
-            "Score": 2,
-            "gen_cat": "Cleaning products and household care - heavy duty cleaner",
-            "id": 54,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Far-field Sources",
-            "Score": 1,
-            "gen_cat": "Home maintenance - degreaser",
-            "id": 87,
-            "Product_ids": "ids and links will be here"
-        },
-        {
-            "Differential Metric": "Consumer Sources Flooring and Related Products",
-            "Score": 3,
-            "gen_cat": "Home maintenance - paint/stain and related products - oil-based paint",
-            "id": 94,
-            "Product_ids": "ids and links will be here"
-        }
-    ]
-  }
-]}
+    ]}
