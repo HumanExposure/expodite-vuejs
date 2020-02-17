@@ -1,0 +1,331 @@
+{
+  "chemicals": [
+  {
+    "DTXSID": "DTXSID0020232",
+    "PREFERRED_NAME": "Caffeine",
+    "SCORE": 2,
+    "DETAILS": [
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "hair conditioning and moisturizing treatments for occasional use",
+            "level_1_category": "Personal care",
+            "level_2_category": "hair styling and care",
+            "level_3_category": "hair conditioning treatment",
+            "puc_id": 201.0
+        },
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "skin treatments applied to the eyelids and skin around the eye (excludes makeup and eye cream)",
+            "level_1_category": "Personal care",
+            "level_2_category": "eye care and contacts",
+            "level_3_category": "eye products",
+            "puc_id": 298.0
+        }
+    ]
+  },
+  {
+    "DTXSID": "DTXSID0020448",
+    "PREFERRED_NAME": "1,2-Dichloropropane",
+    "SCORE": 2,
+    "DETAILS": [
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "products applied to hard surfaces to remove paints and finishes",
+            "level_1_category": "Home maintenance",
+            "level_2_category": "paint\/stain and related products",
+            "level_3_category": "stripper",
+            "puc_id": 102.0
+        }
+    ]
+  },
+  {
+    "DTXSID": "DTXSID0021961",
+    "PREFERRED_NAME": "Benzophenone",
+    "SCORE": 6,
+    "DETAILS": [
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "products specifically marketed for application to hands or body to moisturize or improve skin characteristics (excluding baby lotion)",
+            "level_1_category": "Personal care",
+            "level_2_category": "general moisturizing",
+            "level_3_category": "hand\/body lotion",
+            "puc_id": 185.0
+        },
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "",
+            "level_1_category": "Personal care",
+            "level_2_category": "general moisturizing",
+            "level_3_category": "",
+            "puc_id": 186.0
+        },
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "products for imparting hold, shine, or texture to hair",
+            "level_1_category": "Personal care",
+            "level_2_category": "hair styling and care",
+            "level_3_category": "hair styling",
+            "puc_id": 205.0
+        },
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "clear or colored nail enamels, polishes, basecoats, topcoats, and other acrylic coatings",
+            "level_1_category": "Personal care",
+            "level_2_category": "nails",
+            "level_3_category": "nail polish",
+            "puc_id": 232.0
+        },
+        {
+            "Differential Metric": "Child Products",
+            "Score": 4,
+            "definition": "products applied to the skin to block harmful effects of sunlight",
+            "level_1_category": "Personal care",
+            "level_2_category": "sunscreen",
+            "level_3_category": "",
+            "puc_id": 246.0
+        }
+    ]
+  },
+  {
+    "DTXSID": "DTXSID0021832",
+    "PREFERRED_NAME": "N,N,4-Trimethylaniline",
+    "SCORE": 2,
+    "DETAILS": [
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "adhesives for reparing fingernails or attaching artificial nails",
+            "level_1_category": "Personal care",
+            "level_2_category": "nails",
+            "level_3_category": "nail adhesive",
+            "puc_id": 231.0
+        },
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "clear or colored nail enamels, polishes, basecoats, topcoats, and other acrylic coatings",
+            "level_1_category": "Personal care",
+            "level_2_category": "nails",
+            "level_3_category": "nail polish",
+            "puc_id": 232.0
+        }
+    ]
+  },
+  {
+    "DTXSID": "DTXSID0021759",
+    "PREFERRED_NAME": "2-Methyl-1-propanol",
+    "SCORE": 2,
+    "DETAILS": [
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "shellacs or polyurethane coatings for primarily craft purposes",
+            "level_1_category": "Arts and crafts\/Office supplies",
+            "level_2_category": "general arts and crafts supplies",
+            "level_3_category": "arts and crafts finish",
+            "puc_id": 13.0
+        },
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "level_1_category": "Home maintenance",
+            "level_2_category": "paint\/stain and related products",
+            "level_3_category": "paint",
+            "puc_id": 95.0
+        }
+    ]
+  },
+  {
+    "DTXSID": "DTXSID0021383",
+    "PREFERRED_NAME": "Trichloroethylene",
+    "SCORE": 2,
+    "DETAILS": [
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "general purpose repair adhesives including all purpose glues, super glue, and epoxies; not including wood glues",
+            "level_1_category": "Home maintenance",
+            "level_2_category": "adhesives and adhesive removers",
+            "level_3_category": "multipurpose adhesive",
+            "puc_id": 79.0
+        },
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "products for removing grease and other hydrophobic materials from hard surfaces",
+            "level_1_category": "Home maintenance",
+            "level_2_category": "degreaser",
+            "level_3_category": "",
+            "puc_id": 87.0
+        }
+    ]
+  },
+  {
+    "DTXSID": "DTXSID0020941",
+    "PREFERRED_NAME": "Sodium nitrite",
+    "SCORE": 2,
+    "DETAILS": [
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "home air fresheners, including candles with a fragrance",
+            "level_1_category": "Cleaning products and household care",
+            "level_2_category": "air freshener",
+            "level_3_category": "",
+            "puc_id": 25.0
+        },
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "products used to control microbial pests on hard surfaces or laundry",
+            "level_1_category": "Cleaning products and household care",
+            "level_2_category": "general household cleaning",
+            "level_3_category": "disinfectant",
+            "puc_id": 51.0
+        },
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "products used in washing machines to clean fabrics",
+            "level_1_category": "Cleaning products and household care",
+            "level_2_category": "laundry and fabric treatment",
+            "level_3_category": "laundry detergent",
+            "puc_id": 62.0
+        },
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "insecticides, for interior or exterior use",
+            "level_1_category": "Pesticides",
+            "level_2_category": "insecticide",
+            "level_3_category": "",
+            "puc_id": 253.0
+        }
+    ]
+  },
+  {
+    "DTXSID": "DTXSID0020600",
+    "PREFERRED_NAME": "Ethylene oxide",
+    "SCORE": 5,
+    "DETAILS": [
+        {
+            "Differential Metric": "Flooring and Related Products",
+            "Score": 3,
+            "definition": "products that impart a shine to solid floors",
+            "level_1_category": "Cleaning products and household care",
+            "level_2_category": "carpet and floor",
+            "level_3_category": "floor polish",
+            "puc_id": 31.0
+        },
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "cleaning and household care products that can not be placed in a more refined category",
+            "level_1_category": "Cleaning products and household care",
+            "level_2_category": "",
+            "level_3_category": "",
+            "puc_id": 48.0
+        },
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "moisturizers, lotions, and creams for treating the face (excluding eye-specific products)",
+            "level_1_category": "Personal care",
+            "level_2_category": "facial cleansing and moisturizing",
+            "level_3_category": "face cream\/moisturizer",
+            "puc_id": 179.0
+        },
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "shampoos, including dual shampoo\/conditioner products",
+            "level_1_category": "Personal care",
+            "level_2_category": "hair styling and care",
+            "level_3_category": "shampoo",
+            "puc_id": 210.0
+        },
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "face and skin toners and astringents excluding eye related products",
+            "level_1_category": "Personal care",
+            "level_2_category": "make-up and related",
+            "level_3_category": "toner",
+            "puc_id": 229.0
+        },
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "cleaners, shampoos, and washes for auto body exterior (not including wax products or combo wash\/wax products)",
+            "level_1_category": "Vehicle",
+            "level_2_category": "car surface treatment",
+            "level_3_category": "body cleaner",
+            "puc_id": 286.0
+        }
+    ]
+  },
+  {
+    "DTXSID": "DTXSID0027272",
+    "PREFERRED_NAME": "1-Eicosanol",
+    "SCORE": 2,
+    "DETAILS": [
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "products specifically marketed for application to hands or body to moisturize or improve skin characteristics (excluding baby lotion)",
+            "level_1_category": "Personal care",
+            "level_2_category": "general moisturizing",
+            "level_3_category": "hand\/body lotion",
+            "puc_id": 185.0
+        },
+    ]
+  },
+  {
+    "DTXSID": "DTXSID0027640",
+    "PREFERRED_NAME": "Malic acid",
+    "SCORE": 2,
+    "DETAILS": [
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "clear or colored nail enamels, polishes, basecoats, topcoats, and other acrylic coatings",
+            "level_1_category": "Personal care",
+            "level_2_category": "nails",
+            "level_3_category": "nail polish",
+            "puc_id": 232.0
+        }
+    ]
+  },
+  {
+    "DTXSID": "DTXSID0039229",
+    "PREFERRED_NAME": "Acrylic acid",
+    "SCORE": 2,
+    "DETAILS": [
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "",
+            "level_1_category": "Home maintenance",
+            "level_2_category": "adhesives and adhesive removers",
+            "level_3_category": "",
+            "puc_id": 82.0
+        },
+        {
+            "Differential Metric": "Other Consumer Products",
+            "Score": 2,
+            "definition": "eyelash mascaras",
+            "level_1_category": "Personal care",
+            "level_2_category": "make-up and related",
+            "level_3_category": "mascara",
+            "puc_id": 228.0
+        }
+    ]
+  }
+]}
